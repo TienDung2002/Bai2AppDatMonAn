@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="50dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    android:background="@color/mainColor">
+
+    <!-- Num 1-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_sub_dish_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/banh_bot_loc"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banh_bot_loc" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sub_dish_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/banh_bot_loc" />
+    </LinearLayout>
+
+    <!-- Num 2-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_sub_dish_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/banh_xeo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/banh_xeo" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sub_dish_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/banh_xeo" />
+    </LinearLayout>
+
+    <!-- Num 3-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_sub_dish_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/chao_ga"
+            android:scaleType="centerCrop"
+            android:src="@drawable/chao_ga" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sub_dish_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/chao_ga" />
+    </LinearLayout>
+
+    <!-- Num 4-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_sub_dish_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/com_chien"
+            android:scaleType="centerCrop"
+            android:src="@drawable/com_chien_hai_san" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sub_dish_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/com_chien" />
+    </LinearLayout>
+
+    <!-- Num 5-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_sub_dish_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/kimbap_chien"
+            android:scaleType="centerCrop"
+            android:src="@drawable/kimbap_chien" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sub_dish_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/kimbap_chien" />
+    </LinearLayout>
+
+    <!-- Num 6-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_sub_dish_6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/ngo_chien_bo"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ngo_chien" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sub_dish_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/ngo_chien_bo" />
+    </LinearLayout>
+
+    <!-- Num 7-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_sub_dish_7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/phong_tom"
+            android:scaleType="centerCrop"
+            android:src="@drawable/phong_tom" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sub_dish_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/phong_tom" />
+    </LinearLayout>
+
+    <!-- Num 8-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_sub_dish_8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/khoai_tay_chien"
+            android:scaleType="centerCrop"
+            android:src="@drawable/khoai_tay_chien" />
+
+        <CheckBox
+            android:id="@+id/checkbox_sub_dish_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/khoai_tay_chien" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_gravity="bottom"
+        android:layout_marginTop="30dp"
+        android:background="@color/btnColor"
+        android:text="@string/nextBtnText"
+        android:textSize="20sp" />
+</LinearLayout>

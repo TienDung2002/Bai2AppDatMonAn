@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">FoodOrder_App</string>
+    <string name="app_des">Đặt đồ ăn</string>
+    <string name="nextBtnText">Tiếp theo</string>
+    <string name="btnStart">Chọn món</string>
+    <string name="previousBtn">Previous</string>
+    <string name="viewListBtn">Xem danh sách</string>
+
+    <!--main_dish-->
+    <string name="goi_ngo_sen">Gỏi ngó sen tôm thit</string>
+    <string name="ca_phi_le"> Cá Phile Tẩm Mè</string>
+    <string name="muc_chien_gion">Mực Chiên Giòn</string>
+    <string name="tom_hap">Tôm Sú Hấp Nước Dừa</string>
+    <string name="suon_cay_sot">Sườn cây sốt mật ong</string>
+    <string name="ga_ta_quay_lu">Gà Ta Quay Lu</string>
+    <string name="lau_ca_lang">Lẩu Cá Lăng Măng Chua – Bún Tươi</string>
+    <string name="xoi_hat_sen">Xôi Hạt Sen</string>
+
+    <!--sub dish-->
+    <string name="com_chien">Cơm chiên hải sản</string>
+    <string name="khoai_tay_chien">Khoai tây chiên</string>
+    <string name="ngo_chien_bo">Ngô Mỹ chiên bơ</string>
+    <string name="kimbap_chien">Kimbap chiên</string>
+    <string name="chao_ga">Cháo gà</string>
+    <string name="banh_xeo">Bánh xèo</string>
+    <string name="banh_bot_loc">Bánh bột lọc</string>
+    <string name="phong_tom">Phồng tôm</string>
+
+    <!--Drink-->
+    <string name="coca">Coca cola</string>
+    <string name="pepsi">Pepsi</string>
+    <string name="fanta">Fanta</string>
+    <string name="nuoc_cam">Nước cam tươi ép</string>
+    <string name="nuoc_dua_hau">Nước dưa hấu</string>
+    <string name="ruou_vang">Rượu vang</string>
+    <string name="nuoc_chanh">Nước chanh</string>
+    <string name="nuoc_ep_carot">Nước ép cà rốt</string>
+
+    <!--Desserts-->
+    <string name="banh_duaws">Bánh dứa</string>
+    <string name="bingsu_xoai">Bingsu</string>
+    <string name="mochi">Bánh Mochi</string>
+    <string name="banh_tart">Bánh Tart</string>
+    <string name="tiramisu">Tiramisu</string>
+    <string name="banh_kep">Bánh kếp đậu đỏ</string>
+    <string name="panna_cotta">Panna Cotta</string>
+    <string name="trai_cay">Trái cây tươi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

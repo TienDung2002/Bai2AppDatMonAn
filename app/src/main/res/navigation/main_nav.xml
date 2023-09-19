@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_nav"
+    app:startDestination="@id/home_fragment">
+
+    <fragment
+        android:id="@+id/home_fragment"
+        android:name="com.example.foodorder_app.Home"
+        android:label="fragment_home_fragment"
+        tools:layout="@layout/home" >
+        <action
+            android:id="@+id/action_home_fragment_to_mainDish"
+            app:destination="@id/mainDish" />
+    </fragment>
+    <fragment
+        android:id="@+id/mainDish"
+        android:name="com.example.foodorder_app.MainDish"
+        android:label="MainDish" >
+        <action
+            android:id="@+id/action_mainDish_to_subDish"
+            app:destination="@id/subDish" />
+    </fragment>
+    <fragment
+        android:id="@+id/subDish"
+        android:name="com.example.foodorder_app.SubDish"
+        android:label="SubDish" >
+        <action
+            android:id="@+id/action_subDish_to_drinks"
+            app:destination="@id/drinks" />
+    </fragment>
+    <fragment
+        android:id="@+id/drinks"
+        android:name="com.example.foodorder_app.Drinks"
+        android:label="Drinks" >
+        <action
+            android:id="@+id/action_drinks_to_desserts"
+            app:destination="@id/desserts" />
+    </fragment>
+    <fragment
+        android:id="@+id/desserts"
+        android:name="com.example.foodorder_app.Desserts"
+        android:label="Desserts" >
+        <action
+            android:id="@+id/action_desserts_to_lastFragment_list"
+            app:destination="@id/lastFragment_list" />
+    </fragment>
+    <fragment
+        android:id="@+id/lastFragment_list"
+        android:name="com.example.foodorder_app.LastFragment_list"
+        android:label="last_fragment_list"
+        tools:layout="@layout/last_fragment_list" />
+
+</navigation>

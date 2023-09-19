@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="15dp"
+    android:paddingTop="50dp"
+    android:paddingRight="15dp"
+    android:paddingBottom="15dp"
+    android:background="@color/mainColor">
+
+    <!-- Num 1-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_main_course_1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/goi_ngo_sen"
+            android:scaleType="centerCrop"
+            android:src="@drawable/goi_ngo_sen" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_course_1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/goi_ngo_sen"/>
+    </LinearLayout>
+
+    <!-- Num 2-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_main_course_2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/ca_phi_le"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ca_phi_le" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_course_2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/ca_phi_le"/>
+    </LinearLayout>
+
+    <!-- Num 3-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_main_course_3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/ga_ta_quay_lu"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ga_ta_quay_lu" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_course_3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/ga_ta_quay_lu" />
+    </LinearLayout>
+
+    <!-- Num 4-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_main_course_4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/lau_ca_lang"
+            android:scaleType="centerCrop"
+            android:src="@drawable/lau_ca_lang" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_course_4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/lau_ca_lang"/>
+    </LinearLayout>
+
+    <!-- Num 5-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_main_course_5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/muc_chien_gion"
+            android:scaleType="centerCrop"
+            android:src="@drawable/muc_chien_gion" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_course_5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/muc_chien_gion" />
+    </LinearLayout>
+
+    <!-- Num 6-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_main_course_6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/tom_hap"
+            android:scaleType="centerCrop"
+            android:src="@drawable/tom_hap" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_course_6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/tom_hap"/>
+    </LinearLayout>
+
+    <!-- Num 7-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_main_course_7"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/suon_cay_sot"
+            android:scaleType="centerCrop"
+            android:src="@drawable/suon_cay_sot_mat_ong" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_course_7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/suon_cay_sot"/>
+    </LinearLayout>
+
+    <!-- Num 8-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <ImageView
+            android:id="@+id/image_main_course_8"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:contentDescription="@string/xoi_hat_sen"
+            android:scaleType="centerCrop"
+            android:src="@drawable/xoi_hat_sen" />
+
+        <CheckBox
+            android:id="@+id/checkbox_main_course_8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="15dp"
+            android:padding="15dp"
+            android:text="@string/xoi_hat_sen"/>
+    </LinearLayout>
+
+
+    <Button
+        android:id="@+id/button_next"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="30dp"
+        android:background="@color/btnColor"
+        android:text="@string/nextBtnText"
+        android:textSize="20sp" />
+
+</LinearLayout>
