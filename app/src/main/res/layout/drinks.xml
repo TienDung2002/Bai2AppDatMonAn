@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
@@ -7,207 +8,25 @@
     android:paddingTop="50dp"
     android:paddingRight="15dp"
     android:paddingBottom="15dp"
-    android:background="@color/mainColor">
+    tools:context=".Drinks">
 
-    <!-- Num 1-->
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
+        android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/image_drink_1"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/coca"
-            android:scaleType="centerCrop"
-            android:src="@drawable/coca" />
-
-        <CheckBox
-            android:id="@+id/checkbox_drink_1"
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/listViewDrinks"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:padding="15dp"
-            android:text="@string/coca" />
-    </LinearLayout>
-
-    <!-- Num 2-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <ImageView
-            android:id="@+id/image_drink_2"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/fanta"
-            android:scaleType="centerCrop"
-            android:src="@drawable/fanta" />
-
-        <CheckBox
-            android:id="@+id/checkbox_drink_2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:padding="15dp"
-            android:text="@string/fanta" />
-    </LinearLayout>
-
-    <!-- Num 3-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <ImageView
-            android:id="@+id/image_drink_3"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/nuoc_ep_carot"
-            android:scaleType="centerCrop"
-            android:src="@drawable/nuoc_ca_rot" />
-
-        <CheckBox
-            android:id="@+id/checkbox_drink_3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:padding="15dp"
-            android:text="@string/nuoc_ep_carot" />
-    </LinearLayout>
-
-    <!-- Num 4-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <ImageView
-            android:id="@+id/image_drink_4"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/nuoc_cam"
-            android:scaleType="centerCrop"
-            android:src="@drawable/nuoc_cam_ep" />
-
-        <CheckBox
-            android:id="@+id/checkbox_drink_4"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:padding="15dp"
-            android:text="@string/nuoc_cam" />
-    </LinearLayout>
-
-    <!-- Num 5-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <ImageView
-            android:id="@+id/image_drink_5"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/nuoc_chanh"
-            android:scaleType="centerCrop"
-            android:src="@drawable/nuoc_chanh" />
-
-        <CheckBox
-            android:id="@+id/checkbox_drink_5"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:padding="15dp"
-            android:text="@string/nuoc_chanh" />
-    </LinearLayout>
-
-    <!-- Num 6-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <ImageView
-            android:id="@+id/image_drink_6"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/nuoc_dua_hau"
-            android:scaleType="centerCrop"
-            android:src="@drawable/nuoc_dua_hau" />
-
-        <CheckBox
-            android:id="@+id/checkbox_drink_6"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:padding="15dp"
-            android:text="@string/nuoc_dua_hau" />
-    </LinearLayout>
-
-    <!-- Num 7-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <ImageView
-            android:id="@+id/image_drink_7"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/pepsi"
-            android:scaleType="centerCrop"
-            android:src="@drawable/pepsi" />
-
-        <CheckBox
-            android:id="@+id/checkbox_drink_7"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:padding="15dp"
-            android:text="@string/pepsi" />
-    </LinearLayout>
-
-    <!-- Num 8-->
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        android:padding="10dp">
-
-        <ImageView
-            android:id="@+id/image_drink_8"
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:contentDescription="@string/ruou_vang"
-            android:scaleType="centerCrop"
-            android:src="@drawable/ruou_vang" />
-
-        <CheckBox
-            android:id="@+id/checkbox_drink_8"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="15dp"
-            android:padding="15dp"
-            android:text="@string/ruou_vang" />
+            android:layout_height="600dp"/>
     </LinearLayout>
 
     <Button
         android:id="@+id/button_next"
         android:layout_width="match_parent"
         android:layout_height="50dp"
-        android:layout_gravity="bottom"
-        android:layout_marginTop="30dp"
+        android:layout_alignParentBottom="true"
         android:background="@drawable/button_shape"
         android:text="@string/nextBtnText"
         android:textSize="20sp" />
-</LinearLayout>
+
+</RelativeLayout>

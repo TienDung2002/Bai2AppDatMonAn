@@ -2,12 +2,16 @@ package com.example.foodorder_app
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import androidx.lifecycle.ViewModelProvider
 import androidx.navigation.NavController
 import androidx.navigation.fragment.NavHostFragment
 import androidx.navigation.ui.setupActionBarWithNavController
+import com.example.foodorder_app.model.MyViewModel
+//import com.example.foodorder_app.model.listFood
 
 class MainActivity : AppCompatActivity() {
     private lateinit var navController: NavController
+    lateinit var viewmodel : MyViewModel
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -20,6 +24,7 @@ class MainActivity : AppCompatActivity() {
 
         setSupportActionBar(findViewById(R.id.toolbar))
         setupActionBarWithNavController(navController)
+        viewmodel = ViewModelProvider(this).get(MyViewModel::class.java)
 
         // Tùy chỉnh tiêu đề trên toolbar
         navController.addOnDestinationChangedListener { _, destination, _ ->

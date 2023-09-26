@@ -50,6 +50,11 @@
         android:id="@+id/lastFragment_list"
         android:name="com.example.foodorder_app.LastFragment_list"
         android:label="last_fragment_list"
-        tools:layout="@layout/last_fragment_list" />
+        tools:layout="@layout/last_fragment_list" >
+
+        <action
+            android:id="@+id/action_lastFragment_list_to_mainDish"
+            app:destination="@id/mainDish" />
+    </fragment>
 
 </navigation>

@@ -1,7 +1,8 @@
 <resources>
-    <string name="app_name">FoodOrder_App</string>
+    <string name="app_name">Food Orders</string>
     <string name="app_des">Đặt đồ ăn</string>
     <string name="nextBtnText">Tiếp theo</string>
+    <string name="lastFragBtn">Trở lại trang chủ</string>
     <string name="btnStart">Chọn món</string>
     <string name="previousBtn">Previous</string>
     <string name="viewListBtn">Xem danh sách</string>
@@ -45,6 +46,6 @@
     <string name="banh_kep">Bánh kếp đậu đỏ</string>
     <string name="panna_cotta">Panna Cotta</string>
     <string name="trai_cay">Trái cây tươi</string>
-    <!-- TODO: Remove or change this placeholder text -->
+
     <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
