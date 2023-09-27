@@ -17,10 +17,6 @@ import com.example.foodorder_app.model.Food
 import com.example.foodorder_app.model.MyViewModel
 import com.example.foodorder_app.MyAdapter.Companion.MainDishList
 
-//import com.example.foodorder_app.model.listFood
-
-
-
 class MainDish : Fragment() {
     lateinit var listView : RecyclerView
     lateinit var adapter: MyAdapter
@@ -54,7 +50,11 @@ class MainDish : Fragment() {
         listView.layoutManager = LinearLayoutManager(view?.context)
         listView.adapter = adapter
 
+        // Thêm món đã chọn vào selectedFoods trong MyViewModel cho fragment cuối
+        adapter.setOnItemClickListener { selectedFood ->
+            viewmodel.selectedFoods.add(selectedFood)
+        }
+
         return mainDishView
     }
-
 }

@@ -3,7 +3,6 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/mainColor"
     android:orientation="vertical"
     android:paddingLeft="15dp"
     android:paddingTop="50dp"
@@ -16,7 +15,7 @@
         android:layout_height="wrap_content">
 
         <androidx.recyclerview.widget.RecyclerView
-            android:id="@+id/listViewDesserts"
+            android:id="@+id/RV_lastFrag"
             android:layout_width="match_parent"
             android:layout_height="600dp"/>
     </LinearLayout>

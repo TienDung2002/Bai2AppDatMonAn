@@ -48,6 +48,10 @@ class Desserts : Fragment() {
         listView.layoutManager = LinearLayoutManager(view?.context)
         listView.adapter = adapter
 
+        adapter.setOnItemClickListener { selectedFood ->
+            viewmodel.selectedFoods.add(selectedFood)
+        }
+
         return DessertsView
     }
 

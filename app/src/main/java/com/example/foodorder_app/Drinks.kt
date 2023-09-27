@@ -19,7 +19,6 @@ class Drinks : Fragment() {
     lateinit var adapter: MyAdapter
     lateinit var viewmodel: MyViewModel
 
-
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
@@ -48,6 +47,10 @@ class Drinks : Fragment() {
         adapter = MyAdapter(3, viewLifecycleOwner, viewmodel)
         listView.layoutManager = LinearLayoutManager(view?.context)
         listView.adapter = adapter
+
+        adapter.setOnItemClickListener { selectedFood ->
+            viewmodel.selectedFoods.add(selectedFood)
+        }
 
         return drinksView
     }
